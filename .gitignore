@@ -1,0 +1,36 @@
+# Ignorowanie katalogu node_modules, który zawiera zależności NPM
+node_modules/
+
+# Ignorowanie katalogu .astro, który jest używany przez Astro do przechowywania plików tymczasowych
+.astro/
+
+# Ignorowanie katalogu .svelte-kit, który jest tworzony podczas budowania projektu (jeśli używasz Svelte w Astro)
+.svelte-kit/
+
+# Ignorowanie katalogu dist, w którym znajduje się wynik zbudowanej strony
+dist/
+
+# Ignorowanie plików lock
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Ignorowanie katalogu .vercel, jeśli używasz Vercel do hostingu
+.vercel/
+
+# Ignorowanie katalogu output z konfiguracją Netlify (jeśli używasz Netlify do hostingu)
+netlify.toml
+
+# Ignorowanie plików konfiguracyjnych VSCode
+.vscode/
+
+# Ignorowanie plików środowiskowych, takich jak .env, które mogą zawierać poufne informacje
+.env
+.env.local
+.env.*.local
+
+# Ignorowanie plików logów
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
